@@ -12,6 +12,10 @@ public class CatFactDTO {
         this.catFact = catFactDTO.getData()[0];
     }
 
+    public CatFactDTO(String catFact) {
+        this.catFact = catFact;
+    }
+
     public String getFact() {
         return catFact;
     }

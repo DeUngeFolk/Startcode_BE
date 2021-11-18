@@ -23,7 +23,7 @@
 
         <!--TODO: add DB name below -->
 
-        <db.name>DB_Name_Here</db.name>
+        <db.name>startcode</db.name>
 
     </properties>
     

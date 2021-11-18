@@ -25,7 +25,9 @@ public class CatFactFacade {
 
     public CatFactDTO getCatFact() throws ExecutionException, InterruptedException {
 
-        return HttpUtils.fetchDataParallel();
+        CatFactDTO catFactDTO = (CatFactDTO) HttpUtils.FetchSwitch("catFactDTO").get(0);
+
+        return catFactDTO;
     }
 
 }
